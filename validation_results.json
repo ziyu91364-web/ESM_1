@@ -1,0 +1,112 @@
+{
+  "status": "passed",
+  "numpy_version": "2.3.5",
+  "three_state_family": [
+    {
+      "a": 1.0,
+      "local_threshold": 0.0,
+      "recovery_threshold": 0.0,
+      "maximum_relative_error": 1.7763568394002506e-16
+    },
+    {
+      "a": 1.25,
+      "local_threshold": 0.0,
+      "recovery_threshold": 0.0,
+      "maximum_relative_error": 7.145061144211081e-17
+    },
+    {
+      "a": 2.0,
+      "local_threshold": 0.0,
+      "recovery_threshold": 0.0,
+      "maximum_relative_error": 1.214961045816209e-16
+    },
+    {
+      "a": 3.0,
+      "local_threshold": 0.0,
+      "recovery_threshold": 0.0,
+      "maximum_relative_error": 1.9681226345627775e-16
+    },
+    {
+      "a": 3.999,
+      "local_threshold": 0.0,
+      "recovery_threshold": 0.0,
+      "maximum_relative_error": 1.669027993962226e-16
+    },
+    {
+      "a": 4.0,
+      "local_threshold": 0.0,
+      "recovery_threshold": 0.0,
+      "maximum_relative_error": 1.6148698540002277e-16
+    },
+    {
+      "a": 4.001,
+      "local_threshold": 0.00016665740843557764,
+      "recovery_threshold": 0.0003333333333322384,
+      "maximum_relative_error": 1.2115148249117134e-15
+    },
+    {
+      "a": 5.0,
+      "local_threshold": 0.15831239517769924,
+      "recovery_threshold": 0.3333333333333326,
+      "maximum_relative_error": 5.750899477104365e-16
+    },
+    {
+      "a": 10.0,
+      "local_threshold": 0.7912878474779199,
+      "recovery_threshold": 1.9999999999999947,
+      "maximum_relative_error": 1.7763568394002505e-15
+    },
+    {
+      "a": 25.0,
+      "local_threshold": 2.0707142142714234,
+      "recovery_threshold": 6.999999999999983,
+      "maximum_relative_error": 2.1094237467877974e-15
+    },
+    {
+      "a": 100.0,
+      "local_threshold": 5.588723439378921,
+      "recovery_threshold": 32.000000000000135,
+      "maximum_relative_error": 4.0910036301339105e-15
+    },
+    {
+      "a": 10000.0,
+      "local_threshold": 69.21244586348848,
+      "recovery_threshold": 3332.000000000532,
+      "maximum_relative_error": 3.232295172325262e-13
+    }
+  ],
+  "rings": {
+    "variance_comparisons": 260,
+    "generator_parameter_sets": 65,
+    "maximum_relative_error": 1.4451677901587445e-14
+  },
+  "finite_time": {
+    "finite_time_comparisons": 840,
+    "maximum_deviation_to_bound_ratio": 1.0000000000000007,
+    "maximum_exponential_relative_error": 7.344390562027127e-16
+  },
+  "random_chains": {
+    "seed": 702319,
+    "candidates_per_size": 2500,
+    "state_sizes": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "accepted_irreducible_chains": 14949,
+    "positive_threshold_chains": 5474,
+    "inertia_comparisons": 29898,
+    "direct_threshold_sign_checks": 21896,
+    "sign_mismatches": 0,
+    "maximum_finite_congruence_absolute_error": 8.734302343882394e-13,
+    "maximum_derivative_congruence_absolute_error": 2.575717417130363e-13,
+    "maximum_full_variance_absolute_error": 4.263256414560601e-14,
+    "minimum_strict_recovery_gap": 5.108369830243448e-07,
+    "minimum_recovery_lower_bound_slack": 3.435437808357693e-07,
+    "minimum_recovery_upper_bound_slack": -1.021405182655144e-14
+  },
+  "interpretation": "Numerical consistency checks; the analytical proofs establish the general claims."
+}
